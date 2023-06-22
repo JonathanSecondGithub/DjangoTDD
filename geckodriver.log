@@ -1,0 +1,41 @@
+1687403847358	geckodriver	INFO	Listening on 127.0.0.1:51462
+1687403850528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51463" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile7Ja4wn"
+1687404016636	geckodriver	INFO	Listening on 127.0.0.1:51544
+1687404019808	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileU6yo1T"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687404021952	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687404021970	Marionette	INFO	Listening on port 51553
+Read port: 51553
+WebDriver BiDi listening on ws://127.0.0.1:51545
+1687404023286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51545/devtools/browser/7224db75-5221-48eb-bca6-e723aa3255f0
+1687404042695	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1687404048487	Marionette	INFO	Stopped listening on port 51553
+Dynamically enable window occlusion 1
+1687405060304	geckodriver	INFO	Listening on 127.0.0.1:51724
+1687405063327	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51725" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileWMgqmd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687405066560	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687405066583	Marionette	INFO	Listening on port 51732
+Read port: 51732
+WebDriver BiDi listening on ws://127.0.0.1:51725
+1687405067096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51725/devtools/browser/ad91070a-ec93-4143-9042-65262564cadd
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YTnPKPJ-Q--T2AJ4Qj25FxWmw7bAoVXE9zhtz1eN5hc.js line 2 > eval line 6295 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilecoguuv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687405106130	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687405106144	Marionette	INFO	Listening on port 51775
+Read port: 51775
+WebDriver BiDi listening on ws://127.0.0.1:51768
+1687405106528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51768/devtools/browser/e3646311-fdf5-4289-bace-3c51ce8c4d37
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
