@@ -27,8 +27,9 @@ WebDriver BiDi listening on ws://127.0.0.1:51725
 DevTools listening on ws://127.0.0.1:51725/devtools/browser/ad91070a-ec93-4143-9042-65262564cadd
 console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
 JavaScript warning: https://pagead2.googlesyndication.com/bg/YTnPKPJ-Q--T2AJ4Qj25FxWmw7bAoVXE9zhtz1eN5hc.js line 2 > eval line 6295 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilecoguuv"
-console.warn: services.settings: Ignoring preference override of remote settings server
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1687461181989	Marionette	INFO	Stopped listening on port 51732
+ce override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 1687405106130	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
@@ -39,3 +40,4 @@ WebDriver BiDi listening on ws://127.0.0.1:51768
 DevTools listening on ws://127.0.0.1:51768/devtools/browser/e3646311-fdf5-4289-bace-3c51ce8c4d37
 console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
 console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
