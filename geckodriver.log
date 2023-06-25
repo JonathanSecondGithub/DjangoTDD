@@ -182,3 +182,450 @@ console.log: "RemoteSettingsWorker error: Error: Can't import when we've started
 console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
 console.error: "Failed to import bookmarks from chrome://browser/content/default-bookmarks.html: Error: places.sqlite#0: cannot execute operation GuidHelper.getItemId, the connection is already closing"
 console.error: "Bookmarks.html file could be corrupt. " (new Error("places.sqlite#0: cannot execute operation GuidHelper.getItemId, the connection is already closing", "resource://gre/modules/Sqlite.sys.mjs", 502))
+1687691659356	geckodriver	INFO	Listening on 127.0.0.1:61556
+1687691663447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileHKejcD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687691672897	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687691672952	Marionette	INFO	Listening on port 61569
+Read port: 61569
+Read port: 61569
+WebDriver BiDi listening on ws://127.0.0.1:61557
+1687691675599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+DevTools listening on ws://127.0.0.1:61557/devtools/browser/2ec25931-0c4d-44c8-b4ca-dbf4163cdc68
+1687691705306	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1687691706412	Marionette	INFO	Stopped listening on port 61569
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/translations-wasm getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+[Parent 12068, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+1687691847661	geckodriver	INFO	Listening on 127.0.0.1:61639
+1687691850741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61640" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileJn89yN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687691852327	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687691852364	Marionette	INFO	Listening on port 61647
+Read port: 61647
+WebDriver BiDi listening on ws://127.0.0.1:61640
+1687691852981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61640/devtools/browser/c3cd0e22-ad5a-45bb-b8d2-d83f56d2d277
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+1687691864078	Marionette	INFO	Stopped listening on port 61647
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to import bookmarks from chrome://browser/content/default-bookmarks.html: Error: places.sqlite#0: cannot execute operation GuidHelper.getItemId, the connection is already closing"
+console.error: "Bookmarks.html file could be corrupt. " (new Error("places.sqlite#0: cannot execute operation GuidHelper.getItemId, the connection is already closing", "resource://gre/modules/Sqlite.sys.mjs", 502))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.error: (new Error("IndexedDB: main/doh-config getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+[Parent 3956, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+1687691950905	geckodriver	INFO	Listening on 127.0.0.1:61672
+1687691954159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilewl622f"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687691955474	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687691955490	Marionette	INFO	Listening on port 61680
+Read port: 61680
+WebDriver BiDi listening on ws://127.0.0.1:61673
+1687691956061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61673/devtools/browser/887154f5-b879-4bd6-8230-8a29624c76db
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+1687691965776	Marionette	INFO	Stopped listening on port 61680
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new AbortError("IndexedDB: main/doh-config getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: (new Error("IndexedDB: main/search-telemetry-v2 list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+1687692428167	geckodriver	INFO	Listening on 127.0.0.1:61755
+1687692431206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61756" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilea3quot"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687692432443	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687692432457	Marionette	INFO	Listening on port 61764
+Read port: 61764
+WebDriver BiDi listening on ws://127.0.0.1:61756
+1687692432837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61756/devtools/browser/7f752a37-273c-401f-8ecd-0ef38e936293
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+1687692442694	Marionette	INFO	Stopped listening on port 61764
+Dynamically enable window occlusion 1
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 724: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+1687692649429	geckodriver	INFO	Listening on 127.0.0.1:61795
+1687692652524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61796" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilefMGa60"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687692653467	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687692653482	Marionette	INFO	Listening on port 61803
+Read port: 61803
+WebDriver BiDi listening on ws://127.0.0.1:61796
+1687692653871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61796/devtools/browser/e52d69e4-5d4c-4f7a-a703-e321cfd8d3c9
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+1687692662134	Marionette	INFO	Stopped listening on port 61803
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+Dynamically enable window occlusion 1
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: (new Error("IndexedDB: main/search-telemetry-v2 list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: (new RemoteSettingsWorkerError("AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: (new RemoteSettingsWorkerError("AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: (new RemoteSettingsWorkerError("AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+console.error: (new AbortError("IndexedDB: main/doh-config getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: "Failed to import bookmarks from chrome://browser/content/default-bookmarks.html: Error: places.sqlite#0: cannot execute operation GuidHelper.getItemId, the connection is already closing"
+console.error: "Bookmarks.html file could be corrupt. " (new Error("places.sqlite#0: cannot execute operation GuidHelper.getItemId, the connection is already closing", "resource://gre/modules/Sqlite.sys.mjs", 502))
+1687697816541	geckodriver	INFO	Listening on 127.0.0.1:53663
+1687697819995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53664" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileMHf8Mk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687697827522	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687697827563	Marionette	INFO	Listening on port 53671
+Read port: 53671
+Read port: 53671
+WebDriver BiDi listening on ws://127.0.0.1:53664
+1687697833321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53664/devtools/browser/9b84ed53-6fee-40bd-a473-fe5efde4787a
+1687697859958	Marionette	INFO	Stopped listening on port 53671
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/fingerprinting-protection-overrides getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1687698100262	geckodriver	INFO	Listening on 127.0.0.1:53753
+1687698102777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53754" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilenk0KMQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687698105595	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687698105620	Marionette	INFO	Listening on port 53761
+Read port: 53761
+WebDriver BiDi listening on ws://127.0.0.1:53754
+1687698106886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53754/devtools/browser/eed95d3e-96bd-45de-960a-4582bfa7e66e
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+1687698124623	Marionette	INFO	Stopped listening on port 53761
+Dynamically enable window occlusion 1
+console.error: "Could not load engine google@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for google@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for amazondotcom@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "#init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: (new RemoteSettingsWorkerError("AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 39))
+1687698356574	geckodriver	INFO	Listening on 127.0.0.1:53838
+1687698359589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53839" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileyh2w2h"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687698361187	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687698361204	Marionette	INFO	Listening on port 53846
+Read port: 53846
+WebDriver BiDi listening on ws://127.0.0.1:53839
+1687698361806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53839/devtools/browser/1ed85d88-e263-4fb4-adb5-0d256ef8da4f
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+1687698372488	Marionette	INFO	Stopped listening on port 53846
+Dynamically enable window occlusion 1
+console.error: "Could not load engine google@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for google@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for amazondotcom@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "#init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+1687698434376	geckodriver	INFO	Listening on 127.0.0.1:53872
+1687698437526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53873" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilebVsIJi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687698438844	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687698438864	Marionette	INFO	Listening on port 53880
+Read port: 53880
+WebDriver BiDi listening on ws://127.0.0.1:53873
+1687698439311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53873/devtools/browser/4f74454d-13ce-44b6-8dd5-761504f09d6c
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+1687698450053	Marionette	INFO	Stopped listening on port 53880
+Dynamically enable window occlusion 1
+console.error: "Could not load engine google@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for google@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for amazondotcom@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "#init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+1687698500653	geckodriver	INFO	Listening on 127.0.0.1:53907
+1687698503777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53908" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileQ4gV8O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687698505113	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687698505131	Marionette	INFO	Listening on port 53915
+Read port: 53915
+WebDriver BiDi listening on ws://127.0.0.1:53908
+1687698505587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53908/devtools/browser/5dc626a7-1b18-447a-b6b7-9acb1f3937de
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1687698519245	Marionette	INFO	Stopped listening on port 53915
+Dynamically enable window occlusion 1
+1687698558006	geckodriver	INFO	Listening on 127.0.0.1:53943
+1687698561087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53944" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileznRMM0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687698562840	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687698562862	Marionette	INFO	Listening on port 53952
+Read port: 53952
+WebDriver BiDi listening on ws://127.0.0.1:53944
+1687698563350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53944/devtools/browser/318e4bd8-8d5a-4545-bd5c-9060f22143b4
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+1687698583997	Marionette	INFO	Stopped listening on port 53952
+Dynamically enable window occlusion 1
+1687699670090	geckodriver	INFO	Listening on 127.0.0.1:54059
+1687699673141	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54060" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileTbqxzH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687699674580	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687699674619	Marionette	INFO	Listening on port 54067
+Read port: 54067
+WebDriver BiDi listening on ws://127.0.0.1:54060
+1687699675339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54060/devtools/browser/82ec19af-2b3b-4d59-91ba-e8068a8677c3
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+1687699696450	Marionette	INFO	Stopped listening on port 54067
+Dynamically enable window occlusion 1
+1687699789635	geckodriver	INFO	Listening on 127.0.0.1:54107
+1687699792704	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54108" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilek1lDPD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687699793890	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687699793908	Marionette	INFO	Listening on port 54115
+Read port: 54115
+WebDriver BiDi listening on ws://127.0.0.1:54108
+1687699794379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54108/devtools/browser/e8d2d774-5b97-4b14-891e-0ebab98df265
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+1687699805915	Marionette	INFO	Stopped listening on port 54115
+Dynamically enable window occlusion 1
+console.error: "Could not load engine google@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for google@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for amazondotcom@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.error: SearchService: "Could not find a replacement default engine."
+console.warn: SearchService: "#init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+1687699917832	geckodriver	INFO	Listening on 127.0.0.1:54147
+1687699920894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54148" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile73qkBN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687699922115	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687699922132	Marionette	INFO	Listening on port 54155
+Read port: 54155
+WebDriver BiDi listening on ws://127.0.0.1:54148
+1687699922608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54148/devtools/browser/96003d4b-df1b-4e1e-953c-14faa50383e8
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1687699938133	Marionette	INFO	Stopped listening on port 54155
+Dynamically enable window occlusion 1
+1687699965686	geckodriver	INFO	Listening on 127.0.0.1:54183
+1687699968788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54184" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilebEiO38"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687699970168	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687699970192	Marionette	INFO	Listening on port 54191
+Read port: 54191
+WebDriver BiDi listening on ws://127.0.0.1:54184
+1687699970832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54184/devtools/browser/b888d690-b5ac-4225-9869-ecb352560df0
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+1687699986082	Marionette	INFO	Stopped listening on port 54191
+Dynamically enable window occlusion 1
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.warn: SearchService: "#init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+1687700051864	geckodriver	INFO	Listening on 127.0.0.1:54222
+1687700054946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileief9sP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687700056375	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687700056395	Marionette	INFO	Listening on port 54230
+Read port: 54230
+WebDriver BiDi listening on ws://127.0.0.1:54223
+1687700056832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54223/devtools/browser/6e66073f-d667-44c1-866b-e3baa9bdc292
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1687700073174	Marionette	INFO	Stopped listening on port 54230
+Dynamically enable window occlusion 1
+1687700156582	geckodriver	INFO	Listening on 127.0.0.1:54263
+1687700159638	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54264" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile5ri7lh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687700161051	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687700161074	Marionette	INFO	Listening on port 54271
+Read port: 54271
+WebDriver BiDi listening on ws://127.0.0.1:54264
+1687700161536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54264/devtools/browser/554fedf8-0bdb-48e4-b64d-6c131bcfedb0
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1687700174505	Marionette	INFO	Stopped listening on port 54271
+Dynamically enable window occlusion 1
+1687700200805	geckodriver	INFO	Listening on 127.0.0.1:54300
+1687700203885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileqKeB68"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687700205112	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687700205130	Marionette	INFO	Listening on port 54308
+Read port: 54308
+WebDriver BiDi listening on ws://127.0.0.1:54301
+1687700205710	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54301/devtools/browser/c6d4baf9-0343-44d7-bd8b-6237b57a3281
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2009))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1687700218413	Marionette	INFO	Stopped listening on port 54308
+Dynamically enable window occlusion 1
+1687700331914	geckodriver	INFO	Listening on 127.0.0.1:54342
+1687700334996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileyaTBeV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687700336453	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687700336478	Marionette	INFO	Listening on port 54350
+Read port: 54350
+WebDriver BiDi listening on ws://127.0.0.1:54343
+1687700336958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54343/devtools/browser/37dad838-cfe3-4202-8f63-b737e0f55c4a
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1687700352506	Marionette	INFO	Stopped listening on port 54350
+Dynamically enable window occlusion 1
